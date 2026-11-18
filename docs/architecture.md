@@ -62,7 +62,7 @@ Native commands run on the Tauri asynchronous runtime to keep the interface thre
 
 ## Distribution
 
-The same web build (`dist`, with relative asset paths) serves two purposes: Tauri bundles it in the desktop app, and GitHub Pages hosts it as the web app (`.github/workflows/pages.yml`). The web app has every feature except writing to the keyboard: it offers the `.txt` export and links to the desktop installers, which a version tag publishes as a GitHub release (`.github/workflows/verify.yml`). The download link is `DOWNLOAD_URL` in `src/services/platform.ts`.
+The same web build (`dist`, with relative asset paths) serves two purposes: Tauri bundles it in the desktop app, and GitHub Pages hosts it as the web app (`.github/workflows/pages.yml`). The web app has every feature except writing to the keyboard: it offers the `.txt` export and links to the desktop installers, which a version tag publishes as a GitHub release (`.github/workflows/release.yml`). The download link is `DOWNLOAD_URL` in `src/services/platform.ts`.
 
 ## Local data
 

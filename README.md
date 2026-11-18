@@ -103,7 +103,8 @@ The build writes the executable to `src-tauri/target/release` and the installers
 Publishing is automatic:
 
 - **Web app**: every push to `main` that passes the checks is deployed to GitHub Pages (`.github/workflows/pages.yml`).
-- **Desktop app**: every push is checked and built for Linux, Windows and macOS (Intel and Apple Silicon). Pushing a version tag such as `v1.0.0` also publishes the installers as a GitHub release (`.github/workflows/verify.yml`). Code signing and macOS notarisation are not configured.
+- **Checks**: every push to `main` and every pull request runs the web checks, the browser journeys and the Rust tests on Linux (`.github/workflows/verify.yml`).
+- **Desktop app**: pushing a version tag such as `v1.0.0` builds the installers for Linux (`.deb`, `.rpm`, `.AppImage`), Windows and macOS (Intel and Apple Silicon) and publishes them as a GitHub release (`.github/workflows/release.yml`). Run that workflow by hand to try the builds before tagging. Code signing and macOS notarisation are not configured.
 
 Rust commands go through `scripts/run-native.js`, which uses the system environment. If the Linux build dependencies were extracted into `work/native` instead of being installed (no `sudo`), it adds their paths and reuses the Cargo cache of `work/cargo-home`. The `work/` folder is ignored by Git. Offline: `npm run test:rust -- --offline`.
 
