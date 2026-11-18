@@ -1,0 +1,31 @@
+[package]
+name = "advantage-studio"
+version = "0.1.0"
+description = "A visual SmartSet configurator for Kinesis Advantage2"
+authors = ["Advantage Studio contributors"]
+edition = "2021"
+rust-version = "1.94"
+
+[lib]
+name = "advantage_studio_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+uuid = { version = "1", features = ["v4"] }
+tempfile = "3"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+sysinfo = { version = "0.37", default-features = false, features = ["disk"] }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

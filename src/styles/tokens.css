@@ -1,0 +1,133 @@
+/*
+ * Advantage Studio design system — see docs/design.md.
+ * Two levels: the palette (raw values, inspired by Kinesis and the
+ * Advantage2 hardware), then semantic roles. Components only use
+ * the roles.
+ */
+:root {
+  /* Palette — Kinesis greys, slate band, “Buy Now” green, link blue */
+  --gray-0: #ffffff;
+  --gray-25: #f6f8fb;
+  --gray-50: #eef1f4;
+  --gray-100: #e3e7eb;
+  --gray-200: #d0d6dc;
+  --gray-300: #b4bcc4;
+  --gray-500: #5f666d;
+  --gray-700: #404040;
+  --gray-900: #282828;
+  --slate-100: #e4ebf0;
+  --slate-300: #c9d6df;
+  --slate-500: #7691a1;
+  --slate-700: #2c3c46;
+  --slate-900: #1f2b32;
+  --teal-50: #e7f8f1;
+  --teal-200: #a8e6cf;
+  --teal-400: #3ccb9a;
+  --teal-700: #0f7a5a;
+  --teal-900: #0b3326;
+  --blue-100: #ddeef8;
+  --blue-200: #b9dcf0;
+  --blue-700: #1f6f9c;
+  --blue-900: #0d3b57;
+  --amber-50: #fbf4e4;
+  --amber-200: #ecd9a8;
+  --amber-800: #7a5512;
+  --red-50: #fcefed;
+  --red-200: #efc4bd;
+  --red-700: #b03a2e;
+  --red-800: #942f25;
+
+  /* Keyboard material — the Advantage2's black keycaps */
+  --keycap: #2d3034;
+  --keycap-edge: #17191b;
+  --keycap-hover: #3c4045;
+  --keycap-legend: #eef0f2;
+  --keycap-reserved: #c7ccd1;
+
+  /* Roles — surfaces and text */
+  --bg: var(--gray-25);
+  --surface: var(--gray-0);
+  --surface-sunken: var(--gray-50);
+  --surface-hover: var(--gray-50);
+  --ink: var(--gray-900);
+  --ink-body: var(--gray-700);
+  --ink-muted: var(--gray-500);
+  --line: var(--gray-100);
+  --line-strong: var(--gray-200);
+
+  /* Roles — actions */
+  --primary: var(--gray-900);
+  --primary-hover: #000000;
+  --on-primary: var(--gray-0);
+  --accent: var(--teal-400);
+  --accent-ink: var(--teal-700);
+  --accent-soft: var(--teal-50);
+  --focus: var(--teal-400);
+  --link: var(--blue-700);
+
+  /* Roles — states */
+  --success-ink: var(--teal-700);
+  --success-bg: var(--teal-50);
+  --warning-ink: var(--amber-800);
+  --warning-bg: var(--amber-50);
+  --warning-line: var(--amber-200);
+  --danger-ink: var(--red-700);
+  --danger-bg: var(--red-50);
+  --danger-line: var(--red-200);
+  --danger-hover: var(--red-800);
+
+  /* SmartSet code */
+  --code-bg: var(--slate-900);
+  --code-ink: #d7e2e8;
+
+  /* Binding kinds — same colour on the keyboard, the legend and the lists */
+  --assign-remap: var(--teal-400);
+  --assign-remap-ink: var(--teal-900);
+  --assign-taphold: var(--slate-300);
+  --assign-taphold-ink: var(--slate-900);
+  --assign-macro: var(--blue-200);
+  --assign-macro-ink: var(--blue-900);
+
+  /* Typography */
+  --font:
+    'Inter Variable', 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-md: 13px;
+  --text-lg: 15px;
+  --text-xl: 20px;
+  --text-2xl: 26px;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --tracking-caps: 0.08em;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --control-h: 36px;
+  --control-h-sm: 30px;
+  --shadow-float: 0 12px 40px rgb(31 43 50 / 18%);
+  --shadow-raised: 0 1px 2px rgb(31 43 50 / 8%);
+}
+
+/* Binding kind → colour. The only place this link is decided. */
+[data-kind] {
+  --kind-edge: color-mix(in srgb, var(--kind-fill) 60%, black);
+  --kind-hover: color-mix(in srgb, var(--kind-fill) 85%, white);
+}
+[data-kind='remap'] {
+  --kind-fill: var(--assign-remap);
+  --kind-ink: var(--assign-remap-ink);
+}
+[data-kind='tapHold'] {
+  --kind-fill: var(--assign-taphold);
+  --kind-ink: var(--assign-taphold-ink);
+}
+[data-kind='macro'] {
+  --kind-fill: var(--assign-macro);
+  --kind-ink: var(--assign-macro-ink);
+}

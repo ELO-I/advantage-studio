@@ -1,0 +1,14 @@
+/*
+ * Stylesheets, from the most general to the most specific.
+ * Each selector belongs to a single file, with its responsive rules.
+ * Breakpoints: 1600 px (wide), 1250 px (icon rail), 1050 px (proportional
+ * legends), 760 px (mobile); 700 px high (short windows).
+ */
+@import './tokens.css';
+@import './base.css';
+@import './controls.css';
+@import './shell.css';
+@import './keyboard.css';
+@import './editor.css';
+@import './dialogs.css';
+@import './pages.css';

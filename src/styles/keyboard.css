@@ -1,0 +1,189 @@
+/* Advantage2 keyboard: black keycaps, one colour per binding kind. */
+
+.keyboard {
+  position: relative;
+  width: 100%;
+  container-type: inline-size;
+}
+
+/* ---------- Keycap ---------- */
+.key {
+  --cap: var(--keycap);
+  --cap-edge: var(--keycap-edge);
+  --cap-hover: var(--keycap-hover);
+  --cap-depth: rgb(0 0 0 / 35%);
+  --cap-lift: 3px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  padding: 0 1px 2px;
+  border: 1px solid var(--cap-edge);
+  border-radius: 5px;
+  background: var(--cap);
+  box-shadow:
+    inset 0 calc(-1 * var(--cap-lift)) 0 var(--cap-depth),
+    inset 0 1px 0 rgb(255 255 255 / 8%);
+  font-family: var(--font);
+  font-weight: var(--weight-medium);
+  color: var(--keycap-legend);
+  transition:
+    background 0.12s,
+    box-shadow 0.12s;
+}
+.key:hover:enabled {
+  background: var(--cap-hover);
+}
+.key:focus-visible {
+  outline-offset: 3px;
+  z-index: 3;
+}
+.key[data-kind] {
+  --cap: var(--kind-fill);
+  --cap-edge: var(--kind-edge);
+  --cap-hover: var(--kind-hover);
+  --cap-depth: rgb(0 0 0 / 18%);
+  color: var(--kind-ink);
+}
+.key.key-selected,
+.key.key-selected:hover:enabled {
+  z-index: 2;
+  background: var(--gray-0);
+  border-color: var(--ink);
+  color: var(--ink);
+  box-shadow:
+    inset 0 calc(-1 * var(--cap-lift)) 0 var(--gray-200),
+    0 0 0 3px var(--accent);
+}
+.key:disabled {
+  background: var(--keycap-reserved);
+  border-color: var(--gray-300);
+  box-shadow: inset 0 -2px 0 rgb(0 0 0 / 12%);
+  color: var(--gray-700);
+  opacity: 1;
+}
+.key-function {
+  --cap-lift: 2px;
+  padding: 0;
+  border-radius: 3px;
+}
+.key-pedal {
+  border-radius: 8px;
+}
+
+/* ---------- Legends: their size follows the keycap ---------- */
+.key-label {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: clamp(9px, 1.8cqw, 19px);
+  line-height: 1.05;
+}
+.key-label-medium {
+  font-size: clamp(8px, 1.4cqw, 15px);
+}
+.key-label-small {
+  font-size: clamp(7px, 1.15cqw, 13px);
+}
+.key-function .key-label {
+  font-size: calc(1.05cqw - 0.5px);
+  font-weight: var(--weight-regular);
+}
+.key-thumb .key-label,
+.key-pedal .key-label {
+  font-size: clamp(6px, 1.3cqw, 15px);
+}
+.key-thumb .key-label-medium,
+.key-pedal .key-label-medium {
+  font-size: clamp(6px, 1.1cqw, 13px);
+}
+/* Hold action of a tap / hold, or native legend. */
+.key-sublabel {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: clamp(6px, 0.9cqw, 11px);
+  font-weight: var(--weight-semibold);
+  line-height: 1;
+  opacity: 0.75;
+}
+
+/* ---------- Static preview (library) ---------- */
+.keyboard-compact .key {
+  --cap-lift: 1px;
+  border-radius: 2px;
+}
+.keyboard-compact .key-label {
+  font-size: 1.8cqw;
+}
+.keyboard-compact .key-label-medium {
+  font-size: 1.4cqw;
+}
+.keyboard-compact .key-label-small {
+  font-size: 1cqw;
+}
+.keyboard-compact .key-function .key-label {
+  font-size: 1.1cqw;
+}
+
+/* ---------- Colour legend ---------- */
+.key-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+}
+.key-legend > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+.key-legend i {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--keycap);
+  box-shadow: inset 0 -2px 0 rgb(0 0 0 / 35%);
+}
+.key-legend i[data-kind] {
+  background: var(--kind-fill);
+  box-shadow: inset 0 -2px 0 rgb(0 0 0 / 15%);
+}
+
+/* Small keyboards: legends follow the keycaps, with no minimum size. */
+@media (max-width: 1050px) {
+  .key-label {
+    font-size: 1.8cqw;
+  }
+  .key-label-medium {
+    font-size: 1.4cqw;
+  }
+  .key-label-small {
+    font-size: 1.15cqw;
+  }
+  .key-function .key-label {
+    font-size: calc(1.05cqw - 0.5px);
+  }
+  .key-thumb .key-label,
+  .key-pedal .key-label {
+    font-size: 1.3cqw;
+  }
+  .key-thumb .key-label-medium,
+  .key-pedal .key-label-medium {
+    font-size: 1.1cqw;
+  }
+}
+@media (max-width: 760px) {
+  .key {
+    --cap-lift: 2px;
+    border-radius: 3px;
+  }
+  .key-sublabel {
+    font-size: 0.85cqw;
+  }
+}

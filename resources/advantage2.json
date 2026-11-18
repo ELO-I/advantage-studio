@@ -1,0 +1,3513 @@
+{
+  "model": "Advantage2",
+  "width": 1060,
+  "height": 712,
+  "keys": [
+    {
+      "id": "escape",
+      "x": 25,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "escape",
+          "keypad": "kp-escape"
+        },
+        "dvorak": {
+          "top": "escape",
+          "keypad": "kp-escape"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "escape",
+          "keypad": "escape"
+        },
+        "dvorak": {
+          "top": "escape",
+          "keypad": "escape"
+        }
+      }
+    },
+    {
+      "id": "f1",
+      "x": 67,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f1",
+          "keypad": "kp-lwin"
+        },
+        "dvorak": {
+          "top": "f1",
+          "keypad": "kp-lwin"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f1",
+          "keypad": "lwin"
+        },
+        "dvorak": {
+          "top": "f1",
+          "keypad": "lwin"
+        }
+      }
+    },
+    {
+      "id": "f2",
+      "x": 109,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f2",
+          "keypad": "kp-ralt"
+        },
+        "dvorak": {
+          "top": "f2",
+          "keypad": "kp-ralt"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f2",
+          "keypad": "ralt"
+        },
+        "dvorak": {
+          "top": "f2",
+          "keypad": "ralt"
+        }
+      }
+    },
+    {
+      "id": "f3",
+      "x": 151,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f3",
+          "keypad": "menu"
+        },
+        "dvorak": {
+          "top": "f3",
+          "keypad": "menu"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f3",
+          "keypad": "menu"
+        },
+        "dvorak": {
+          "top": "f3",
+          "keypad": "menu"
+        }
+      }
+    },
+    {
+      "id": "f4",
+      "x": 193,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f4",
+          "keypad": "play"
+        },
+        "dvorak": {
+          "top": "f4",
+          "keypad": "play"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f4",
+          "keypad": "play"
+        },
+        "dvorak": {
+          "top": "f4",
+          "keypad": "play"
+        }
+      }
+    },
+    {
+      "id": "f5",
+      "x": 235,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f5",
+          "keypad": "prev"
+        },
+        "dvorak": {
+          "top": "f5",
+          "keypad": "prev"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f5",
+          "keypad": "prev"
+        },
+        "dvorak": {
+          "top": "f5",
+          "keypad": "prev"
+        }
+      }
+    },
+    {
+      "id": "f6",
+      "x": 277,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f6",
+          "keypad": "next"
+        },
+        "dvorak": {
+          "top": "f6",
+          "keypad": "next"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f6",
+          "keypad": "next"
+        },
+        "dvorak": {
+          "top": "f6",
+          "keypad": "next"
+        }
+      }
+    },
+    {
+      "id": "f7",
+      "x": 319,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f7",
+          "keypad": "calc"
+        },
+        "dvorak": {
+          "top": "f7",
+          "keypad": "calc"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f7",
+          "keypad": "calc"
+        },
+        "dvorak": {
+          "top": "f7",
+          "keypad": "calc"
+        }
+      }
+    },
+    {
+      "id": "f8",
+      "x": 361,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f8",
+          "keypad": "kpshft"
+        },
+        "dvorak": {
+          "top": "f8",
+          "keypad": "kpshft"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f8",
+          "keypad": "kpshift"
+        },
+        "dvorak": {
+          "top": "f8",
+          "keypad": "kpshift"
+        }
+      }
+    },
+    {
+      "id": "f9",
+      "x": 650,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f9",
+          "keypad": "kp-f9"
+        },
+        "dvorak": {
+          "top": "f9",
+          "keypad": "kp-f9"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f9",
+          "keypad": "f9"
+        },
+        "dvorak": {
+          "top": "f9",
+          "keypad": "f9"
+        }
+      }
+    },
+    {
+      "id": "f10",
+      "x": 692,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f10",
+          "keypad": "kp-f10"
+        },
+        "dvorak": {
+          "top": "f10",
+          "keypad": "kp-f10"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f10",
+          "keypad": "f10"
+        },
+        "dvorak": {
+          "top": "f10",
+          "keypad": "f10"
+        }
+      }
+    },
+    {
+      "id": "f11",
+      "x": 734,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f11",
+          "keypad": "kp-f11"
+        },
+        "dvorak": {
+          "top": "f11",
+          "keypad": "kp-f11"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f11",
+          "keypad": "f11"
+        },
+        "dvorak": {
+          "top": "f11",
+          "keypad": "f11"
+        }
+      }
+    },
+    {
+      "id": "f12",
+      "x": 776,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f12",
+          "keypad": "kp-f12"
+        },
+        "dvorak": {
+          "top": "f12",
+          "keypad": "kp-f12"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f12",
+          "keypad": "f12"
+        },
+        "dvorak": {
+          "top": "f12",
+          "keypad": "f12"
+        }
+      }
+    },
+    {
+      "id": "prtscr",
+      "x": 818,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "prtscr",
+          "keypad": "mute"
+        },
+        "dvorak": {
+          "top": "prtscr",
+          "keypad": "mute"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "prtscr",
+          "keypad": "mute"
+        },
+        "dvorak": {
+          "top": "prtscr",
+          "keypad": "mute"
+        }
+      }
+    },
+    {
+      "id": "scroll",
+      "x": 860,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "scroll",
+          "keypad": "vol-"
+        },
+        "dvorak": {
+          "top": "scroll",
+          "keypad": "vol-"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "scroll",
+          "keypad": "vol-"
+        },
+        "dvorak": {
+          "top": "scroll",
+          "keypad": "vol-"
+        }
+      }
+    },
+    {
+      "id": "pause",
+      "x": 902,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "pause",
+          "keypad": "vol+"
+        },
+        "dvorak": {
+          "top": "pause",
+          "keypad": "vol+"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "pause",
+          "keypad": "vol+"
+        },
+        "dvorak": {
+          "top": "pause",
+          "keypad": "vol+"
+        }
+      }
+    },
+    {
+      "id": "keypad",
+      "x": 944,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": false,
+      "locations": {
+        "qwerty": {
+          "top": "keypad",
+          "keypad": "keypad"
+        },
+        "dvorak": {
+          "top": "keypad",
+          "keypad": "keypad"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "keypad",
+          "keypad": "keypad"
+        },
+        "dvorak": {
+          "top": "keypad",
+          "keypad": "keypad"
+        }
+      }
+    },
+    {
+      "id": "program",
+      "x": 986,
+      "y": 18,
+      "w": 36,
+      "h": 35,
+      "rotation": 0,
+      "group": "function",
+      "editable": false,
+      "locations": {
+        "qwerty": {
+          "top": "program",
+          "keypad": "program"
+        },
+        "dvorak": {
+          "top": "program",
+          "keypad": "program"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "program",
+          "keypad": "program"
+        },
+        "dvorak": {
+          "top": "program",
+          "keypad": "program"
+        }
+      }
+    },
+    {
+      "id": "=",
+      "x": 25,
+      "y": 115,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "=",
+          "keypad": "kp-="
+        },
+        "dvorak": {
+          "top": "=",
+          "keypad": "kp-="
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "=",
+          "keypad": "="
+        },
+        "dvorak": {
+          "top": "=",
+          "keypad": "="
+        }
+      }
+    },
+    {
+      "id": "1",
+      "x": 89,
+      "y": 107,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "1",
+          "keypad": "kp-1"
+        },
+        "dvorak": {
+          "top": "1",
+          "keypad": "kp-1"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "1",
+          "keypad": "1"
+        },
+        "dvorak": {
+          "top": "1",
+          "keypad": "1"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "x": 153,
+      "y": 93,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "2",
+          "keypad": "kp-2"
+        },
+        "dvorak": {
+          "top": "2",
+          "keypad": "kp-2"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "2",
+          "keypad": "2"
+        },
+        "dvorak": {
+          "top": "2",
+          "keypad": "2"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "x": 217,
+      "y": 90,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "3",
+          "keypad": "kp-3"
+        },
+        "dvorak": {
+          "top": "3",
+          "keypad": "kp-3"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "3",
+          "keypad": "3"
+        },
+        "dvorak": {
+          "top": "3",
+          "keypad": "3"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "x": 281,
+      "y": 96,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "4",
+          "keypad": "kp-4"
+        },
+        "dvorak": {
+          "top": "4",
+          "keypad": "kp-4"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "4",
+          "keypad": "4"
+        },
+        "dvorak": {
+          "top": "4",
+          "keypad": "4"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "x": 345,
+      "y": 103,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "5",
+          "keypad": "kp-5"
+        },
+        "dvorak": {
+          "top": "5",
+          "keypad": "kp-5"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "5",
+          "keypad": "5"
+        },
+        "dvorak": {
+          "top": "5",
+          "keypad": "5"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "x": 650,
+      "y": 103,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "6",
+          "keypad": "kp-6"
+        },
+        "dvorak": {
+          "top": "6",
+          "keypad": "kp-6"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "6",
+          "keypad": "6"
+        },
+        "dvorak": {
+          "top": "6",
+          "keypad": "6"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "x": 714,
+      "y": 96,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "7",
+          "keypad": "numlk"
+        },
+        "dvorak": {
+          "top": "7",
+          "keypad": "numlk"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "7",
+          "keypad": "numlk"
+        },
+        "dvorak": {
+          "top": "7",
+          "keypad": "numlk"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "x": 778,
+      "y": 90,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "8",
+          "keypad": "kp="
+        },
+        "dvorak": {
+          "top": "8",
+          "keypad": "kp="
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "8",
+          "keypad": "kp=mac"
+        },
+        "dvorak": {
+          "top": "8",
+          "keypad": "kp=mac"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "x": 842,
+      "y": 93,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "9",
+          "keypad": "kpdiv"
+        },
+        "dvorak": {
+          "top": "9",
+          "keypad": "kpdiv"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "9",
+          "keypad": "kpdiv"
+        },
+        "dvorak": {
+          "top": "9",
+          "keypad": "kpdiv"
+        }
+      }
+    },
+    {
+      "id": "0",
+      "x": 906,
+      "y": 107,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "0",
+          "keypad": "kpmult"
+        },
+        "dvorak": {
+          "top": "0",
+          "keypad": "kpmult"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "0",
+          "keypad": "kpmult"
+        },
+        "dvorak": {
+          "top": "0",
+          "keypad": "kpmult"
+        }
+      }
+    },
+    {
+      "id": "hyphen",
+      "x": 970,
+      "y": 115,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "hyphen",
+          "keypad": "kp-hyphen"
+        },
+        "dvorak": {
+          "top": "hyphen",
+          "keypad": "kp-hyphen"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "hyphen",
+          "keypad": "hyphen"
+        },
+        "dvorak": {
+          "top": "hyphen",
+          "keypad": "hyphen"
+        }
+      }
+    },
+    {
+      "id": "tab",
+      "x": 25,
+      "y": 179,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "tab",
+          "keypad": "kp-tab"
+        },
+        "dvorak": {
+          "top": "tab",
+          "keypad": "kp-tab"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "tab",
+          "keypad": "tab"
+        },
+        "dvorak": {
+          "top": "tab",
+          "keypad": "tab"
+        }
+      }
+    },
+    {
+      "id": "q",
+      "x": 89,
+      "y": 171,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "q",
+          "keypad": "kp-q"
+        },
+        "dvorak": {
+          "top": "'",
+          "keypad": "kp-'"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "q",
+          "keypad": "q"
+        },
+        "dvorak": {
+          "top": "'",
+          "keypad": "'"
+        }
+      }
+    },
+    {
+      "id": "w",
+      "x": 153,
+      "y": 157,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "w",
+          "keypad": "kp-w"
+        },
+        "dvorak": {
+          "top": ",",
+          "keypad": "kp-,"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "w",
+          "keypad": "w"
+        },
+        "dvorak": {
+          "top": ",",
+          "keypad": ","
+        }
+      }
+    },
+    {
+      "id": "e",
+      "x": 217,
+      "y": 154,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "e",
+          "keypad": "kp-e"
+        },
+        "dvorak": {
+          "top": ".",
+          "keypad": "kp-."
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "e",
+          "keypad": "e"
+        },
+        "dvorak": {
+          "top": ".",
+          "keypad": "."
+        }
+      }
+    },
+    {
+      "id": "r",
+      "x": 281,
+      "y": 160,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "r",
+          "keypad": "kp-r"
+        },
+        "dvorak": {
+          "top": "p",
+          "keypad": "kp-p"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "r",
+          "keypad": "r"
+        },
+        "dvorak": {
+          "top": "p",
+          "keypad": "p"
+        }
+      }
+    },
+    {
+      "id": "t",
+      "x": 345,
+      "y": 167,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "t",
+          "keypad": "kp-t"
+        },
+        "dvorak": {
+          "top": "y",
+          "keypad": "kp-y"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "t",
+          "keypad": "t"
+        },
+        "dvorak": {
+          "top": "y",
+          "keypad": "y"
+        }
+      }
+    },
+    {
+      "id": "y",
+      "x": 650,
+      "y": 167,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "y",
+          "keypad": "kp-y"
+        },
+        "dvorak": {
+          "top": "f",
+          "keypad": "kp-f"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "y",
+          "keypad": "y"
+        },
+        "dvorak": {
+          "top": "f",
+          "keypad": "f"
+        }
+      }
+    },
+    {
+      "id": "u",
+      "x": 714,
+      "y": 160,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "u",
+          "keypad": "kp7"
+        },
+        "dvorak": {
+          "top": "g",
+          "keypad": "kp7"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "u",
+          "keypad": "kp7"
+        },
+        "dvorak": {
+          "top": "g",
+          "keypad": "kp7"
+        }
+      }
+    },
+    {
+      "id": "i",
+      "x": 778,
+      "y": 154,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "i",
+          "keypad": "kp8"
+        },
+        "dvorak": {
+          "top": "c",
+          "keypad": "kp8"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "i",
+          "keypad": "kp8"
+        },
+        "dvorak": {
+          "top": "c",
+          "keypad": "kp8"
+        }
+      }
+    },
+    {
+      "id": "o",
+      "x": 842,
+      "y": 157,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "o",
+          "keypad": "kp9"
+        },
+        "dvorak": {
+          "top": "r",
+          "keypad": "kp9"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "o",
+          "keypad": "kp9"
+        },
+        "dvorak": {
+          "top": "r",
+          "keypad": "kp9"
+        }
+      }
+    },
+    {
+      "id": "p",
+      "x": 906,
+      "y": 171,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "p",
+          "keypad": "kpmin"
+        },
+        "dvorak": {
+          "top": "l",
+          "keypad": "kpmin"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "p",
+          "keypad": "kpmin"
+        },
+        "dvorak": {
+          "top": "l",
+          "keypad": "kpmin"
+        }
+      }
+    },
+    {
+      "id": "\\",
+      "x": 970,
+      "y": 179,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "\\",
+          "keypad": "kp-\\"
+        },
+        "dvorak": {
+          "top": "/",
+          "keypad": "kp-/"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "\\",
+          "keypad": "\\"
+        },
+        "dvorak": {
+          "top": "/",
+          "keypad": "/"
+        }
+      }
+    },
+    {
+      "id": "caps",
+      "x": 25,
+      "y": 243,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "caps",
+          "keypad": "kp-caps"
+        },
+        "dvorak": {
+          "top": "caps",
+          "keypad": "kp-caps"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "caps",
+          "keypad": "caps"
+        },
+        "dvorak": {
+          "top": "caps",
+          "keypad": "caps"
+        }
+      }
+    },
+    {
+      "id": "a",
+      "x": 89,
+      "y": 235,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "a",
+          "keypad": "kp-a"
+        },
+        "dvorak": {
+          "top": "a",
+          "keypad": "kp-a"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "a",
+          "keypad": "a"
+        },
+        "dvorak": {
+          "top": "a",
+          "keypad": "a"
+        }
+      }
+    },
+    {
+      "id": "s",
+      "x": 153,
+      "y": 221,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "s",
+          "keypad": "kp-s"
+        },
+        "dvorak": {
+          "top": "o",
+          "keypad": "kp-o"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "s",
+          "keypad": "s"
+        },
+        "dvorak": {
+          "top": "o",
+          "keypad": "o"
+        }
+      }
+    },
+    {
+      "id": "d",
+      "x": 217,
+      "y": 218,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "d",
+          "keypad": "kp-d"
+        },
+        "dvorak": {
+          "top": "e",
+          "keypad": "kp-e"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "d",
+          "keypad": "d"
+        },
+        "dvorak": {
+          "top": "e",
+          "keypad": "e"
+        }
+      }
+    },
+    {
+      "id": "f",
+      "x": 281,
+      "y": 224,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "f",
+          "keypad": "kp-f"
+        },
+        "dvorak": {
+          "top": "u",
+          "keypad": "kp-u"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "f",
+          "keypad": "f"
+        },
+        "dvorak": {
+          "top": "u",
+          "keypad": "u"
+        }
+      }
+    },
+    {
+      "id": "g",
+      "x": 345,
+      "y": 231,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "g",
+          "keypad": "kp-g"
+        },
+        "dvorak": {
+          "top": "i",
+          "keypad": "kp-i"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "g",
+          "keypad": "g"
+        },
+        "dvorak": {
+          "top": "i",
+          "keypad": "i"
+        }
+      }
+    },
+    {
+      "id": "h",
+      "x": 650,
+      "y": 231,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "h",
+          "keypad": "kp-h"
+        },
+        "dvorak": {
+          "top": "d",
+          "keypad": "kp-d"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "h",
+          "keypad": "h"
+        },
+        "dvorak": {
+          "top": "d",
+          "keypad": "d"
+        }
+      }
+    },
+    {
+      "id": "j",
+      "x": 714,
+      "y": 224,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "j",
+          "keypad": "kp4"
+        },
+        "dvorak": {
+          "top": "h",
+          "keypad": "kp4"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "j",
+          "keypad": "kp4"
+        },
+        "dvorak": {
+          "top": "h",
+          "keypad": "kp4"
+        }
+      }
+    },
+    {
+      "id": "k",
+      "x": 778,
+      "y": 218,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "k",
+          "keypad": "kp5"
+        },
+        "dvorak": {
+          "top": "t",
+          "keypad": "kp5"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "k",
+          "keypad": "kp5"
+        },
+        "dvorak": {
+          "top": "t",
+          "keypad": "kp5"
+        }
+      }
+    },
+    {
+      "id": "l",
+      "x": 842,
+      "y": 221,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "l",
+          "keypad": "kp6"
+        },
+        "dvorak": {
+          "top": "n",
+          "keypad": "kp6"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "l",
+          "keypad": "kp6"
+        },
+        "dvorak": {
+          "top": "n",
+          "keypad": "kp6"
+        }
+      }
+    },
+    {
+      "id": ";",
+      "x": 906,
+      "y": 235,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": ";",
+          "keypad": "kpplus"
+        },
+        "dvorak": {
+          "top": "s",
+          "keypad": "kpplus"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": ";",
+          "keypad": "kpplus"
+        },
+        "dvorak": {
+          "top": "s",
+          "keypad": "kpplus"
+        }
+      }
+    },
+    {
+      "id": "'",
+      "x": 970,
+      "y": 243,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "'",
+          "keypad": "kp-'"
+        },
+        "dvorak": {
+          "top": "\\",
+          "keypad": "kp-\\"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "'",
+          "keypad": "'"
+        },
+        "dvorak": {
+          "top": "\\",
+          "keypad": "\\"
+        }
+      }
+    },
+    {
+      "id": "lshift",
+      "x": 25,
+      "y": 307,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "lshift",
+          "keypad": "kp-lshift"
+        },
+        "dvorak": {
+          "top": "lshift",
+          "keypad": "kp-lshift"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "lshift",
+          "keypad": "lshift"
+        },
+        "dvorak": {
+          "top": "lshift",
+          "keypad": "lshift"
+        }
+      }
+    },
+    {
+      "id": "z",
+      "x": 89,
+      "y": 299,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "z",
+          "keypad": "kp-z"
+        },
+        "dvorak": {
+          "top": ";",
+          "keypad": "kp-;"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "z",
+          "keypad": "z"
+        },
+        "dvorak": {
+          "top": ";",
+          "keypad": ";"
+        }
+      }
+    },
+    {
+      "id": "x",
+      "x": 153,
+      "y": 285,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "x",
+          "keypad": "kp-x"
+        },
+        "dvorak": {
+          "top": "q",
+          "keypad": "kp-q"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "x",
+          "keypad": "x"
+        },
+        "dvorak": {
+          "top": "q",
+          "keypad": "q"
+        }
+      }
+    },
+    {
+      "id": "c",
+      "x": 217,
+      "y": 282,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "c",
+          "keypad": "kp-c"
+        },
+        "dvorak": {
+          "top": "j",
+          "keypad": "kp-j"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "c",
+          "keypad": "c"
+        },
+        "dvorak": {
+          "top": "j",
+          "keypad": "j"
+        }
+      }
+    },
+    {
+      "id": "v",
+      "x": 281,
+      "y": 288,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "v",
+          "keypad": "kp-v"
+        },
+        "dvorak": {
+          "top": "k",
+          "keypad": "kp-k"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "v",
+          "keypad": "v"
+        },
+        "dvorak": {
+          "top": "k",
+          "keypad": "k"
+        }
+      }
+    },
+    {
+      "id": "b",
+      "x": 345,
+      "y": 295,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "b",
+          "keypad": "kp-b"
+        },
+        "dvorak": {
+          "top": "x",
+          "keypad": "kp-x"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "b",
+          "keypad": "b"
+        },
+        "dvorak": {
+          "top": "x",
+          "keypad": "x"
+        }
+      }
+    },
+    {
+      "id": "n",
+      "x": 650,
+      "y": 295,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "n",
+          "keypad": "kp-n"
+        },
+        "dvorak": {
+          "top": "b",
+          "keypad": "kp-b"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "n",
+          "keypad": "n"
+        },
+        "dvorak": {
+          "top": "b",
+          "keypad": "b"
+        }
+      }
+    },
+    {
+      "id": "m",
+      "x": 714,
+      "y": 288,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "m",
+          "keypad": "kp1"
+        },
+        "dvorak": {
+          "top": "m",
+          "keypad": "kp1"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "m",
+          "keypad": "kp1"
+        },
+        "dvorak": {
+          "top": "m",
+          "keypad": "kp1"
+        }
+      }
+    },
+    {
+      "id": ",",
+      "x": 778,
+      "y": 282,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": ",",
+          "keypad": "kp2"
+        },
+        "dvorak": {
+          "top": "w",
+          "keypad": "kp2"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": ",",
+          "keypad": "kp2"
+        },
+        "dvorak": {
+          "top": "w",
+          "keypad": "kp2"
+        }
+      }
+    },
+    {
+      "id": ".",
+      "x": 842,
+      "y": 285,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": ".",
+          "keypad": "kp3"
+        },
+        "dvorak": {
+          "top": "v",
+          "keypad": "kp3"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": ".",
+          "keypad": "kp3"
+        },
+        "dvorak": {
+          "top": "v",
+          "keypad": "kp3"
+        }
+      }
+    },
+    {
+      "id": "/",
+      "x": 906,
+      "y": 299,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "/",
+          "keypad": "kpenter1"
+        },
+        "dvorak": {
+          "top": "z",
+          "keypad": "kpenter1"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "/",
+          "keypad": "kpenter1"
+        },
+        "dvorak": {
+          "top": "z",
+          "keypad": "kpenter1"
+        }
+      }
+    },
+    {
+      "id": "rshift",
+      "x": 970,
+      "y": 307,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "rshift",
+          "keypad": "kp-rshift"
+        },
+        "dvorak": {
+          "top": "rshift",
+          "keypad": "kp-rshift"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "rshift",
+          "keypad": "rshift"
+        },
+        "dvorak": {
+          "top": "rshift",
+          "keypad": "rshift"
+        }
+      }
+    },
+    {
+      "id": "`",
+      "x": 89,
+      "y": 371,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "`",
+          "keypad": "kp-`"
+        },
+        "dvorak": {
+          "top": "`",
+          "keypad": "kp-`"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "`",
+          "keypad": "`"
+        },
+        "dvorak": {
+          "top": "`",
+          "keypad": "`"
+        }
+      }
+    },
+    {
+      "id": "intl-\\",
+      "x": 153,
+      "y": 358,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "intl-\\",
+          "keypad": "kp-insert"
+        },
+        "dvorak": {
+          "top": "intl-\\",
+          "keypad": "kp-insert"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "intl-\\",
+          "keypad": "insert"
+        },
+        "dvorak": {
+          "top": "intl-\\",
+          "keypad": "insert"
+        }
+      }
+    },
+    {
+      "id": "left",
+      "x": 217,
+      "y": 358,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "left",
+          "keypad": "kp-left"
+        },
+        "dvorak": {
+          "top": "left",
+          "keypad": "kp-left"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "left",
+          "keypad": "left"
+        },
+        "dvorak": {
+          "top": "left",
+          "keypad": "left"
+        }
+      }
+    },
+    {
+      "id": "right",
+      "x": 281,
+      "y": 358,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "right",
+          "keypad": "kp-right"
+        },
+        "dvorak": {
+          "top": "right",
+          "keypad": "kp-right"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "right",
+          "keypad": "right"
+        },
+        "dvorak": {
+          "top": "right",
+          "keypad": "right"
+        }
+      }
+    },
+    {
+      "id": "up",
+      "x": 714,
+      "y": 358,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "up",
+          "keypad": "kp-up"
+        },
+        "dvorak": {
+          "top": "up",
+          "keypad": "kp-up"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "up",
+          "keypad": "up"
+        },
+        "dvorak": {
+          "top": "up",
+          "keypad": "up"
+        }
+      }
+    },
+    {
+      "id": "down",
+      "x": 778,
+      "y": 358,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "down",
+          "keypad": "kp-down"
+        },
+        "dvorak": {
+          "top": "down",
+          "keypad": "kp-down"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "down",
+          "keypad": "down"
+        },
+        "dvorak": {
+          "top": "down",
+          "keypad": "down"
+        }
+      }
+    },
+    {
+      "id": "obrack",
+      "x": 842,
+      "y": 358,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "obrack",
+          "keypad": "kp."
+        },
+        "dvorak": {
+          "top": "obrack",
+          "keypad": "kp."
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "obrack",
+          "keypad": "kp."
+        },
+        "dvorak": {
+          "top": "obrack",
+          "keypad": "kp."
+        }
+      }
+    },
+    {
+      "id": "cbrack",
+      "x": 906,
+      "y": 371,
+      "w": 59,
+      "h": 57,
+      "rotation": 0,
+      "group": "well",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "cbrack",
+          "keypad": "kpenter2"
+        },
+        "dvorak": {
+          "top": "cbrack",
+          "keypad": "kpenter2"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "cbrack",
+          "keypad": "kpenter2"
+        },
+        "dvorak": {
+          "top": "cbrack",
+          "keypad": "kpenter2"
+        }
+      }
+    },
+    {
+      "id": "lctrl",
+      "x": 397.923,
+      "y": 407.839,
+      "w": 59,
+      "h": 50,
+      "rotation": 18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "lctrl",
+          "keypad": "kp-lctrl"
+        },
+        "dvorak": {
+          "top": "lctrl",
+          "keypad": "kp-lctrl"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "lctrl",
+          "keypad": "lctrl"
+        },
+        "dvorak": {
+          "top": "lctrl",
+          "keypad": "lctrl"
+        }
+      }
+    },
+    {
+      "id": "lalt",
+      "x": 459.742,
+      "y": 427.925,
+      "w": 59,
+      "h": 50,
+      "rotation": 18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "lalt",
+          "keypad": "kp-lalt"
+        },
+        "dvorak": {
+          "top": "lalt",
+          "keypad": "kp-lalt"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "lalt",
+          "keypad": "lalt"
+        },
+        "dvorak": {
+          "top": "lalt",
+          "keypad": "lalt"
+        }
+      }
+    },
+    {
+      "id": "bspace",
+      "x": 309.22,
+      "y": 441.495,
+      "w": 59,
+      "h": 108,
+      "rotation": 18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "bspace",
+          "keypad": "kp-bspace"
+        },
+        "dvorak": {
+          "top": "bspace",
+          "keypad": "kp-bspace"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "bspace",
+          "keypad": "bspace"
+        },
+        "dvorak": {
+          "top": "bspace",
+          "keypad": "bspace"
+        }
+      }
+    },
+    {
+      "id": "delete",
+      "x": 371.039,
+      "y": 461.581,
+      "w": 59,
+      "h": 108,
+      "rotation": 18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "delete",
+          "keypad": "kp-delete"
+        },
+        "dvorak": {
+          "top": "delete",
+          "keypad": "kp-delete"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "delete",
+          "keypad": "delete"
+        },
+        "dvorak": {
+          "top": "delete",
+          "keypad": "delete"
+        }
+      }
+    },
+    {
+      "id": "home",
+      "x": 441.819,
+      "y": 483.086,
+      "w": 59,
+      "h": 50,
+      "rotation": 18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "home",
+          "keypad": "kp-home"
+        },
+        "dvorak": {
+          "top": "home",
+          "keypad": "kp-home"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "home",
+          "keypad": "home"
+        },
+        "dvorak": {
+          "top": "home",
+          "keypad": "home"
+        }
+      }
+    },
+    {
+      "id": "end",
+      "x": 423.896,
+      "y": 538.247,
+      "w": 59,
+      "h": 50,
+      "rotation": 18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "end",
+          "keypad": "kp-end"
+        },
+        "dvorak": {
+          "top": "end",
+          "keypad": "kp-end"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "end",
+          "keypad": "end"
+        },
+        "dvorak": {
+          "top": "end",
+          "keypad": "end"
+        }
+      }
+    },
+    {
+      "id": "rwin",
+      "x": 535.258,
+      "y": 427.925,
+      "w": 59,
+      "h": 50,
+      "rotation": -18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "rwin",
+          "keypad": "kp-rwin"
+        },
+        "dvorak": {
+          "top": "rwin",
+          "keypad": "kp-rwin"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "rwin",
+          "keypad": "rwin"
+        },
+        "dvorak": {
+          "top": "rwin",
+          "keypad": "rwin"
+        }
+      }
+    },
+    {
+      "id": "rctrl",
+      "x": 597.077,
+      "y": 407.839,
+      "w": 59,
+      "h": 50,
+      "rotation": -18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "rctrl",
+          "keypad": "kp-rctrl"
+        },
+        "dvorak": {
+          "top": "rctrl",
+          "keypad": "kp-rctrl"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "rctrl",
+          "keypad": "rctrl"
+        },
+        "dvorak": {
+          "top": "rctrl",
+          "keypad": "rctrl"
+        }
+      }
+    },
+    {
+      "id": "pup",
+      "x": 553.181,
+      "y": 483.086,
+      "w": 59,
+      "h": 50,
+      "rotation": -18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "pup",
+          "keypad": "kp-pup"
+        },
+        "dvorak": {
+          "top": "pup",
+          "keypad": "kp-pup"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "pup",
+          "keypad": "pup"
+        },
+        "dvorak": {
+          "top": "pup",
+          "keypad": "pup"
+        }
+      }
+    },
+    {
+      "id": "pdown",
+      "x": 571.104,
+      "y": 538.247,
+      "w": 59,
+      "h": 50,
+      "rotation": -18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "pdown",
+          "keypad": "kp-pdown"
+        },
+        "dvorak": {
+          "top": "pdown",
+          "keypad": "kp-pdown"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "pdown",
+          "keypad": "pdown"
+        },
+        "dvorak": {
+          "top": "pdown",
+          "keypad": "pdown"
+        }
+      }
+    },
+    {
+      "id": "enter",
+      "x": 623.961,
+      "y": 461.581,
+      "w": 59,
+      "h": 108,
+      "rotation": -18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "enter",
+          "keypad": "kp-enter"
+        },
+        "dvorak": {
+          "top": "enter",
+          "keypad": "kp-enter"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "enter",
+          "keypad": "enter"
+        },
+        "dvorak": {
+          "top": "enter",
+          "keypad": "enter"
+        }
+      }
+    },
+    {
+      "id": "space",
+      "x": 685.78,
+      "y": 441.495,
+      "w": 59,
+      "h": 108,
+      "rotation": -18,
+      "group": "thumb",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "space",
+          "keypad": "kp0"
+        },
+        "dvorak": {
+          "top": "space",
+          "keypad": "kp0"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "space",
+          "keypad": "kp0"
+        },
+        "dvorak": {
+          "top": "space",
+          "keypad": "kp0"
+        }
+      }
+    },
+    {
+      "id": "lp-tab",
+      "x": 455,
+      "y": 650,
+      "w": 58,
+      "h": 45,
+      "rotation": 0,
+      "group": "pedal",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "lp-tab",
+          "keypad": "kp-lp-tab"
+        },
+        "dvorak": {
+          "top": "lp-tab",
+          "keypad": "kp-lp-tab"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "tab",
+          "keypad": "tab"
+        },
+        "dvorak": {
+          "top": "tab",
+          "keypad": "tab"
+        }
+      }
+    },
+    {
+      "id": "mp-kpshf",
+      "x": 521,
+      "y": 650,
+      "w": 58,
+      "h": 45,
+      "rotation": 0,
+      "group": "pedal",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "mp-kpshf",
+          "keypad": "kp-mp-kpshf"
+        },
+        "dvorak": {
+          "top": "mp-kpshf",
+          "keypad": "kp-mp-kpshf"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "kpshift",
+          "keypad": "kpshift"
+        },
+        "dvorak": {
+          "top": "kpshift",
+          "keypad": "kpshift"
+        }
+      }
+    },
+    {
+      "id": "rp-kpent",
+      "x": 587,
+      "y": 650,
+      "w": 58,
+      "h": 45,
+      "rotation": 0,
+      "group": "pedal",
+      "editable": true,
+      "locations": {
+        "qwerty": {
+          "top": "rp-kpent",
+          "keypad": "kp-rp-kpent"
+        },
+        "dvorak": {
+          "top": "rp-kpent",
+          "keypad": "kp-rp-kpent"
+        }
+      },
+      "defaults": {
+        "qwerty": {
+          "top": "kpenter1",
+          "keypad": "kpenter1"
+        },
+        "dvorak": {
+          "top": "kpenter1",
+          "keypad": "kpenter1"
+        }
+      }
+    }
+  ],
+  "actions": [
+    {
+      "token": "a",
+      "label": "A",
+      "name": "A",
+      "category": "characters"
+    },
+    {
+      "token": "b",
+      "label": "B",
+      "name": "B",
+      "category": "characters"
+    },
+    {
+      "token": "c",
+      "label": "C",
+      "name": "C",
+      "category": "characters"
+    },
+    {
+      "token": "d",
+      "label": "D",
+      "name": "D",
+      "category": "characters"
+    },
+    {
+      "token": "e",
+      "label": "E",
+      "name": "E",
+      "category": "characters"
+    },
+    {
+      "token": "f",
+      "label": "F",
+      "name": "F",
+      "category": "characters"
+    },
+    {
+      "token": "g",
+      "label": "G",
+      "name": "G",
+      "category": "characters"
+    },
+    {
+      "token": "h",
+      "label": "H",
+      "name": "H",
+      "category": "characters"
+    },
+    {
+      "token": "i",
+      "label": "I",
+      "name": "I",
+      "category": "characters"
+    },
+    {
+      "token": "j",
+      "label": "J",
+      "name": "J",
+      "category": "characters"
+    },
+    {
+      "token": "k",
+      "label": "K",
+      "name": "K",
+      "category": "characters"
+    },
+    {
+      "token": "l",
+      "label": "L",
+      "name": "L",
+      "category": "characters"
+    },
+    {
+      "token": "m",
+      "label": "M",
+      "name": "M",
+      "category": "characters"
+    },
+    {
+      "token": "n",
+      "label": "N",
+      "name": "N",
+      "category": "characters"
+    },
+    {
+      "token": "o",
+      "label": "O",
+      "name": "O",
+      "category": "characters"
+    },
+    {
+      "token": "p",
+      "label": "P",
+      "name": "P",
+      "category": "characters"
+    },
+    {
+      "token": "q",
+      "label": "Q",
+      "name": "Q",
+      "category": "characters"
+    },
+    {
+      "token": "r",
+      "label": "R",
+      "name": "R",
+      "category": "characters"
+    },
+    {
+      "token": "s",
+      "label": "S",
+      "name": "S",
+      "category": "characters"
+    },
+    {
+      "token": "t",
+      "label": "T",
+      "name": "T",
+      "category": "characters"
+    },
+    {
+      "token": "u",
+      "label": "U",
+      "name": "U",
+      "category": "characters"
+    },
+    {
+      "token": "v",
+      "label": "V",
+      "name": "V",
+      "category": "characters"
+    },
+    {
+      "token": "w",
+      "label": "W",
+      "name": "W",
+      "category": "characters"
+    },
+    {
+      "token": "x",
+      "label": "X",
+      "name": "X",
+      "category": "characters"
+    },
+    {
+      "token": "y",
+      "label": "Y",
+      "name": "Y",
+      "category": "characters"
+    },
+    {
+      "token": "z",
+      "label": "Z",
+      "name": "Z",
+      "category": "characters"
+    },
+    {
+      "token": "0",
+      "label": "0",
+      "name": "0",
+      "category": "characters"
+    },
+    {
+      "token": "1",
+      "label": "1",
+      "name": "1",
+      "category": "characters"
+    },
+    {
+      "token": "2",
+      "label": "2",
+      "name": "2",
+      "category": "characters"
+    },
+    {
+      "token": "3",
+      "label": "3",
+      "name": "3",
+      "category": "characters"
+    },
+    {
+      "token": "4",
+      "label": "4",
+      "name": "4",
+      "category": "characters"
+    },
+    {
+      "token": "5",
+      "label": "5",
+      "name": "5",
+      "category": "characters"
+    },
+    {
+      "token": "6",
+      "label": "6",
+      "name": "6",
+      "category": "characters"
+    },
+    {
+      "token": "7",
+      "label": "7",
+      "name": "7",
+      "category": "characters"
+    },
+    {
+      "token": "8",
+      "label": "8",
+      "name": "8",
+      "category": "characters"
+    },
+    {
+      "token": "9",
+      "label": "9",
+      "name": "9",
+      "category": "characters"
+    },
+    {
+      "token": "=",
+      "label": "=",
+      "name": "=",
+      "category": "characters"
+    },
+    {
+      "token": "hyphen",
+      "label": "−",
+      "name": "Hyphen",
+      "category": "characters"
+    },
+    {
+      "token": "`",
+      "label": "`",
+      "name": "`",
+      "category": "characters"
+    },
+    {
+      "token": "'",
+      "label": "'",
+      "name": "'",
+      "category": "characters"
+    },
+    {
+      "token": ";",
+      "label": ";",
+      "name": ";",
+      "category": "characters"
+    },
+    {
+      "token": "\\",
+      "label": "\\",
+      "name": "\\",
+      "category": "characters"
+    },
+    {
+      "token": "/",
+      "label": "/",
+      "name": "/",
+      "category": "characters"
+    },
+    {
+      "token": "obrack",
+      "label": "[",
+      "name": "Left bracket",
+      "category": "characters"
+    },
+    {
+      "token": "cbrack",
+      "label": "]",
+      "name": "Right bracket",
+      "category": "characters"
+    },
+    {
+      "token": ",",
+      "label": ",",
+      "name": ",",
+      "category": "characters"
+    },
+    {
+      "token": ".",
+      "label": ".",
+      "name": ".",
+      "category": "characters"
+    },
+    {
+      "token": "intl-\\",
+      "label": "Intl",
+      "name": "International key",
+      "category": "characters"
+    },
+    {
+      "token": "f1",
+      "label": "F1",
+      "name": "F1",
+      "category": "functions"
+    },
+    {
+      "token": "f2",
+      "label": "F2",
+      "name": "F2",
+      "category": "functions"
+    },
+    {
+      "token": "f3",
+      "label": "F3",
+      "name": "F3",
+      "category": "functions"
+    },
+    {
+      "token": "f4",
+      "label": "F4",
+      "name": "F4",
+      "category": "functions"
+    },
+    {
+      "token": "f5",
+      "label": "F5",
+      "name": "F5",
+      "category": "functions"
+    },
+    {
+      "token": "f6",
+      "label": "F6",
+      "name": "F6",
+      "category": "functions"
+    },
+    {
+      "token": "f7",
+      "label": "F7",
+      "name": "F7",
+      "category": "functions"
+    },
+    {
+      "token": "f8",
+      "label": "F8",
+      "name": "F8",
+      "category": "functions"
+    },
+    {
+      "token": "f9",
+      "label": "F9",
+      "name": "F9",
+      "category": "functions"
+    },
+    {
+      "token": "f10",
+      "label": "F10",
+      "name": "F10",
+      "category": "functions"
+    },
+    {
+      "token": "f11",
+      "label": "F11",
+      "name": "F11",
+      "category": "functions"
+    },
+    {
+      "token": "f12",
+      "label": "F12",
+      "name": "F12",
+      "category": "functions"
+    },
+    {
+      "token": "f13",
+      "label": "F13",
+      "name": "F13",
+      "category": "functions"
+    },
+    {
+      "token": "f14",
+      "label": "F14",
+      "name": "F14",
+      "category": "functions"
+    },
+    {
+      "token": "f15",
+      "label": "F15",
+      "name": "F15",
+      "category": "functions"
+    },
+    {
+      "token": "f16",
+      "label": "F16",
+      "name": "F16",
+      "category": "functions"
+    },
+    {
+      "token": "f17",
+      "label": "F17",
+      "name": "F17",
+      "category": "functions"
+    },
+    {
+      "token": "f18",
+      "label": "F18",
+      "name": "F18",
+      "category": "functions"
+    },
+    {
+      "token": "f19",
+      "label": "F19",
+      "name": "F19",
+      "category": "functions"
+    },
+    {
+      "token": "f20",
+      "label": "F20",
+      "name": "F20",
+      "category": "functions"
+    },
+    {
+      "token": "f21",
+      "label": "F21",
+      "name": "F21",
+      "category": "functions"
+    },
+    {
+      "token": "f22",
+      "label": "F22",
+      "name": "F22",
+      "category": "functions"
+    },
+    {
+      "token": "f23",
+      "label": "F23",
+      "name": "F23",
+      "category": "functions"
+    },
+    {
+      "token": "f24",
+      "label": "F24",
+      "name": "F24",
+      "category": "functions"
+    },
+    {
+      "token": "escape",
+      "label": "Esc",
+      "name": "Escape",
+      "category": "navigation"
+    },
+    {
+      "token": "tab",
+      "label": "Tab",
+      "name": "Tab",
+      "category": "navigation"
+    },
+    {
+      "token": "caps",
+      "label": "Caps",
+      "name": "Caps Lock",
+      "category": "navigation"
+    },
+    {
+      "token": "bspace",
+      "label": "⌫",
+      "name": "Backspace",
+      "category": "navigation"
+    },
+    {
+      "token": "delete",
+      "label": "Del",
+      "name": "Delete",
+      "category": "navigation"
+    },
+    {
+      "token": "enter",
+      "label": "Enter",
+      "name": "Enter",
+      "category": "navigation"
+    },
+    {
+      "token": "space",
+      "label": "Space",
+      "name": "Space",
+      "category": "navigation"
+    },
+    {
+      "token": "home",
+      "label": "Home",
+      "name": "Home",
+      "category": "navigation"
+    },
+    {
+      "token": "end",
+      "label": "End",
+      "name": "End",
+      "category": "navigation"
+    },
+    {
+      "token": "pup",
+      "label": "Pg ↑",
+      "name": "Page Up",
+      "category": "navigation"
+    },
+    {
+      "token": "pdown",
+      "label": "Pg ↓",
+      "name": "Page Down",
+      "category": "navigation"
+    },
+    {
+      "token": "left",
+      "label": "←",
+      "name": "Left arrow",
+      "category": "navigation"
+    },
+    {
+      "token": "right",
+      "label": "→",
+      "name": "Right arrow",
+      "category": "navigation"
+    },
+    {
+      "token": "up",
+      "label": "↑",
+      "name": "Up arrow",
+      "category": "navigation"
+    },
+    {
+      "token": "down",
+      "label": "↓",
+      "name": "Down arrow",
+      "category": "navigation"
+    },
+    {
+      "token": "prtscr",
+      "label": "PrtSc",
+      "name": "Print Screen",
+      "category": "navigation"
+    },
+    {
+      "token": "scroll",
+      "label": "Scroll",
+      "name": "Scroll Lock",
+      "category": "navigation"
+    },
+    {
+      "token": "pause",
+      "label": "Pause",
+      "name": "Pause",
+      "category": "navigation"
+    },
+    {
+      "token": "insert",
+      "label": "Ins",
+      "name": "Insert",
+      "category": "navigation"
+    },
+    {
+      "token": "menu",
+      "label": "Menu",
+      "name": "Context menu",
+      "category": "navigation"
+    },
+    {
+      "token": "lshift",
+      "label": "⇧",
+      "name": "Left Shift",
+      "category": "modifiers"
+    },
+    {
+      "token": "rshift",
+      "label": "⇧",
+      "name": "Right Shift",
+      "category": "modifiers"
+    },
+    {
+      "token": "lctrl",
+      "label": "Ctrl",
+      "name": "Left Ctrl",
+      "category": "modifiers"
+    },
+    {
+      "token": "rctrl",
+      "label": "Ctrl",
+      "name": "Right Ctrl",
+      "category": "modifiers"
+    },
+    {
+      "token": "lalt",
+      "label": "Alt",
+      "name": "Left Alt",
+      "category": "modifiers"
+    },
+    {
+      "token": "ralt",
+      "label": "Alt Gr",
+      "name": "Right Alt",
+      "category": "modifiers"
+    },
+    {
+      "token": "lwin",
+      "label": "Super",
+      "name": "Left Windows / Cmd",
+      "category": "modifiers"
+    },
+    {
+      "token": "rwin",
+      "label": "Super",
+      "name": "Right Windows / Cmd",
+      "category": "modifiers"
+    },
+    {
+      "token": "meh",
+      "label": "Meh",
+      "name": "Ctrl + Alt + Shift",
+      "category": "modifiers"
+    },
+    {
+      "token": "hyper",
+      "label": "Hyper",
+      "name": "Ctrl + Alt + Shift + Super",
+      "category": "modifiers"
+    },
+    {
+      "token": "play",
+      "label": "▶ / Ⅱ",
+      "name": "Play / pause",
+      "category": "media"
+    },
+    {
+      "token": "prev",
+      "label": "◀◀",
+      "name": "Previous track",
+      "category": "media"
+    },
+    {
+      "token": "next",
+      "label": "▶▶",
+      "name": "Next track",
+      "category": "media"
+    },
+    {
+      "token": "mute",
+      "label": "Mute",
+      "name": "Mute",
+      "category": "media"
+    },
+    {
+      "token": "vol-",
+      "label": "Vol −",
+      "name": "Volume down",
+      "category": "media"
+    },
+    {
+      "token": "vol+",
+      "label": "Vol +",
+      "name": "Volume up",
+      "category": "media"
+    },
+    {
+      "token": "calc",
+      "label": "Calc",
+      "name": "Calculator (Windows)",
+      "category": "media"
+    },
+    {
+      "token": "lmouse",
+      "label": "L Click",
+      "name": "Left click",
+      "category": "media"
+    },
+    {
+      "token": "mmouse",
+      "label": "M Click",
+      "name": "Middle click",
+      "category": "media"
+    },
+    {
+      "token": "rmouse",
+      "label": "R Click",
+      "name": "Right click",
+      "category": "media"
+    },
+    {
+      "token": "shutdn",
+      "label": "Power",
+      "name": "Shut down the PC",
+      "category": "media"
+    },
+    {
+      "token": "kptoggle",
+      "label": "KP ⇄",
+      "name": "Toggle the Keypad layer",
+      "category": "keypad"
+    },
+    {
+      "token": "kpshift",
+      "label": "KP ↓",
+      "name": "Hold the Keypad layer",
+      "category": "keypad"
+    },
+    {
+      "token": "numlk",
+      "label": "Num",
+      "name": "Num Lock",
+      "category": "keypad"
+    },
+    {
+      "token": "kp0",
+      "label": "KP 0",
+      "name": "Keypad 0",
+      "category": "keypad"
+    },
+    {
+      "token": "kp1",
+      "label": "KP 1",
+      "name": "Keypad 1",
+      "category": "keypad"
+    },
+    {
+      "token": "kp2",
+      "label": "KP 2",
+      "name": "Keypad 2",
+      "category": "keypad"
+    },
+    {
+      "token": "kp3",
+      "label": "KP 3",
+      "name": "Keypad 3",
+      "category": "keypad"
+    },
+    {
+      "token": "kp4",
+      "label": "KP 4",
+      "name": "Keypad 4",
+      "category": "keypad"
+    },
+    {
+      "token": "kp5",
+      "label": "KP 5",
+      "name": "Keypad 5",
+      "category": "keypad"
+    },
+    {
+      "token": "kp6",
+      "label": "KP 6",
+      "name": "Keypad 6",
+      "category": "keypad"
+    },
+    {
+      "token": "kp7",
+      "label": "KP 7",
+      "name": "Keypad 7",
+      "category": "keypad"
+    },
+    {
+      "token": "kp8",
+      "label": "KP 8",
+      "name": "Keypad 8",
+      "category": "keypad"
+    },
+    {
+      "token": "kp9",
+      "label": "KP 9",
+      "name": "Keypad 9",
+      "category": "keypad"
+    },
+    {
+      "token": "kp=mac",
+      "label": "KP =",
+      "name": "Keypad = (Mac)",
+      "category": "keypad"
+    },
+    {
+      "token": "kpdiv",
+      "label": "KP ÷",
+      "name": "Keypad ÷",
+      "category": "keypad"
+    },
+    {
+      "token": "kpmult",
+      "label": "KP ×",
+      "name": "Keypad ×",
+      "category": "keypad"
+    },
+    {
+      "token": "kpmin",
+      "label": "KP −",
+      "name": "Keypad −",
+      "category": "keypad"
+    },
+    {
+      "token": "kpplus",
+      "label": "KP +",
+      "name": "Keypad +",
+      "category": "keypad"
+    },
+    {
+      "token": "kpenter1",
+      "label": "KP ↵",
+      "name": "Keypad Enter",
+      "category": "keypad"
+    },
+    {
+      "token": "kpenter2",
+      "label": "KP ↵",
+      "name": "Keypad Enter (2)",
+      "category": "keypad"
+    },
+    {
+      "token": "kp.",
+      "label": "KP .",
+      "name": "Keypad decimal",
+      "category": "keypad"
+    },
+    {
+      "token": "null",
+      "label": "∅",
+      "name": "Disable the key",
+      "category": "other"
+    }
+  ],
+  "aliases": {
+    "esc": "escape",
+    "kpshft": "kpshift",
+    "kp=": "kp=mac",
+    "shift": "lshift",
+    "ctrl": "lctrl",
+    "alt": "lalt",
+    "win": "lwin"
+  },
+  "modifierTokens": [
+    "lctrl",
+    "rctrl",
+    "lshift",
+    "rshift",
+    "lalt",
+    "ralt",
+    "lwin",
+    "rwin"
+  ],
+  "sources": [
+    "https://kinesis-ergo.com/wp-content/uploads/Adv2-Users-Manual-US_6-22-21.pdf",
+    "https://github.com/KinesisCorporation/SmartSetApps"
+  ],
+  "mainHeight": 630
+}
