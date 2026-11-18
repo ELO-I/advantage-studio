@@ -1,8 +1,9 @@
 [package]
 name = "advantage-studio"
-version = "0.1.0"
+version = "1.0.0"
 description = "A visual SmartSet configurator for Kinesis Advantage2"
 authors = ["Advantage Studio contributors"]
+license = "MIT"
 edition = "2021"
 rust-version = "1.94"
 

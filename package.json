@@ -1,8 +1,9 @@
 {
   "name": "advantage-studio",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A visual SmartSet configurator for the Kinesis Advantage2",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",

@@ -112,4 +112,6 @@ Rust commands go through `scripts/run-native.js`, which uses the system environm
 - [Architecture and validation](docs/architecture.md): code organisation, SmartSet format, transfer safety, local data, tests and reference sources.
 - [Design system](docs/design.md): colours, typography and layout rules.
 
-Advantage Studio is an independent project, not affiliated with Kinesis Corporation.
+## License
+
+[MIT](LICENSE). Advantage Studio is an independent project, not affiliated with Kinesis Corporation.
