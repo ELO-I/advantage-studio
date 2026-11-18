@@ -36,7 +36,7 @@ jobs:
         include:
           - os: ubuntu-24.04
             artifact: linux-x64
-            bundles: deb,appimage
+            bundles: deb,rpm,appimage
           - os: windows-latest
             artifact: windows-x64
             bundles: nsis
@@ -88,7 +88,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           shopt -s globstar nullglob
-          files=(artifacts/**/*.{deb,AppImage,exe,dmg})
+          files=(artifacts/**/*.{deb,rpm,AppImage,exe,dmg})
           if [ ${#files[@]} -eq 0 ]; then echo "No installer found"; exit 1; fi
           gh release create "$GITHUB_REF_NAME" "${files[@]}" \
             --repo "$GITHUB_REPOSITORY" --title "Advantage Studio $GITHUB_REF_NAME" --generate-notes
